@@ -1,12 +1,17 @@
 .container {
-    height: 40px;
-    padding-bottom: 20px;
+    min-height: 74px;
+    max-width: 100%;
+    background-color: white;
+    ;
+    margin: auto;
+    border-bottom: 1px rgb(202, 202, 202) solid;
 }
 
 header {
     float: left;
     background-color: #4aaaa5;
     padding: 10px;
+    font-size: 36px;
 
 }
 
@@ -14,8 +19,27 @@ header {
     float: right;
 }
 
+
+
 .aboutmeimage {
-    width: 100%;
-    width: 320px;
+    max-width: 35%;
+    min-width: 15%;
+    height: auto;
     float: left;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.aboutme {
+    margin: 40px 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    max-width: 960px;
+    background-color: white;
+    border: 1px rgb(202, 202, 202) solid;
 }
