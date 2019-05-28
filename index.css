@@ -1,3 +1,5 @@
+/* header and nav */
+
 .container {
     min-height: 74px;
     max-width: 100%;
@@ -12,20 +14,28 @@ header {
     background-color: #4aaaa5;
     padding: 10px;
     font-size: 36px;
+    text-align: center;
 
 }
 
 .nav {
     float: right;
+    background-color: white;
 }
 
+.nav-item {
+    padding-right: 10px;
+    padding: 10px 10px;
+}
 
+/* image, paragraphs */
 
 .aboutmeimage {
     max-width: 35%;
     min-width: 15%;
     height: auto;
     float: left;
+    margin: 10px;
 }
 
 .clearfix::after{
@@ -42,4 +52,18 @@ header {
     max-width: 960px;
     background-color: white;
     border: 1px rgb(202, 202, 202) solid;
+}
+
+p {
+    margin: 5px;
+}
+/* footer */
+
+footer {
+    width: 100%;
+    background-color: rgb(202, 202, 202);
+    position: absolute;
+    bottom: 0;
+    height: 30px;
+    text-align: center;
 }
