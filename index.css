@@ -1,0 +1,21 @@
+.container {
+    height: 40px;
+    padding-bottom: 20px;
+}
+
+header {
+    float: left;
+    background-color: #4aaaa5;
+    padding: 10px;
+
+}
+
+.nav {
+    float: right;
+}
+
+.aboutmeimage {
+    width: 100%;
+    width: 320px;
+    float: left;
+}
