@@ -54,6 +54,11 @@ header {
     border: 1px rgb(202, 202, 202) solid;
 }
 
+#portfolioimages img {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
 p {
     margin: 5px;
 }
