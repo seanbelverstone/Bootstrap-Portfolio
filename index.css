@@ -43,7 +43,8 @@ header {
     clear: both;
 }
 
-.aboutme {
+.aboutme,
+#portfolioimages {
     margin: 40px 0;
     margin-right: auto;
     margin-left: auto;
@@ -61,8 +62,12 @@ p {
 footer {
     width: 100%;
     background-color: rgb(202, 202, 202);
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
     height: 30px;
     text-align: center;
 }
+
+
+/* Portfolio section */
