@@ -77,3 +77,20 @@ footer {
 
 /* Portfolio section */
 
+.imageContainer {
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    padding: 10px 10px;
+    width: 93.5%;
+    margin: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+}
